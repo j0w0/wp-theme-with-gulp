@@ -1,0 +1,11 @@
+@use "variables";
+
+.site-header {
+  background-color: variables.$primary-color;
+  padding: 12px;
+  color: #fff;
+}
+
+.site-inner {
+  padding: 12px;
+}

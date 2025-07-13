@@ -1,0 +1,25 @@
+@use "variables";
+
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: variables.$font-primary;
+  margin: 0px;
+}
+
+a {
+  color: variables.$primary-color;
+}
+
+.color-primary {
+  color: variables.$primary-color;
+}
+
+.color-secondary {
+  color: variables.$secondary-color;
+}
